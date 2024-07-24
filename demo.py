@@ -1,7 +1,7 @@
 import numpy as np
 import cv2
 from whenet import WHENet
-from utils import draw_axis
+from hpe_utils import draw_axis
 
 def crop_and_pred(img_path, bbox, model):
     img = cv2.imread(img_path)
